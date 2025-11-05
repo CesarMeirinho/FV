@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|c:\\users\\gustavo\\onedrive\\\u00E1rea de trabalho\\dev\\projetofv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2591D8CA-E09E-42D8-9FF3-C59AB218A09F}|ProjetoFV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Product.cshtml",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Views\\Home\\Product.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Product.cshtml",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "Models\\ProductModel.cs",
@@ -120,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\gustavo\\OneDrive\\\u00C1rea de Trabalho\\Dev\\ProjetoFV\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwB4AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywB4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T00:16:06.144Z",
               "EditorCaption": ""

@@ -28,3 +28,4 @@ C:\Users\gustavo\OneDrive\Área de Trabalho\Dev\ProjetoFV\obj\Debug\net8.0\refin
 C:\Users\gustavo\OneDrive\Área de Trabalho\Dev\ProjetoFV\obj\Debug\net8.0\ProjetoFV.pdb
 C:\Users\gustavo\OneDrive\Área de Trabalho\Dev\ProjetoFV\obj\Debug\net8.0\ProjetoFV.genruntimeconfig.cache
 C:\Users\gustavo\OneDrive\Área de Trabalho\Dev\ProjetoFV\obj\Debug\net8.0\ref\ProjetoFV.dll
+C:\Users\gustavo\OneDrive\Área de Trabalho\Dev\ProjetoFV\obj\Debug\net8.0\ProjetoFV.sourcelink.json
