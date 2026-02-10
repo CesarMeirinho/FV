@@ -1,18 +1,49 @@
-﻿using ProjetoFV.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using ProjetoFV.Models;
 
 namespace ProjetoFV.Repositories
 {
     public class ProductRepository
     {
-        public List<ProductModel> GetLatestPrice()
+        protected static List<ProductModel> _products = new();
+        
+        private static int _nextId = 1;
+       
+        public void Create(ProductModel product)
         {
-            //simulação de preço (mas vai vir do db)
-            return new List<ProductModel>
-            {
-                new ProductModel { Id = 1, Name = "Produto A", Price = 10.50m },
-                new ProductModel { Id = 2, Name = "Produto B", Price = 25.00m },
-                new ProductModel { Id = 3, Name = "Produto C", Price = 99.90m }
-            };
+            product.Id = _nextId;
+            _nextId++;
+
+            _products.Add(product);
         }
+        public ProductModel GetByID(int id)
+        {
+            return _products.FirstOrDefault(p => p.Id == id);
+        }
+        public void Update(ProductModel product)
+        {
+            var existing = GetByID(product.Id);
+
+            if (existing == null)
+                throw new Exception("Produto não encontrado");
+
+            existing.Name = product.Name; 
+            existing.Price = product.Price;
+        }
+        public void DeleteByID(int id)
+        {
+            var existing = GetByID(id);
+
+            if (existing == null)
+                throw new Exception("Produto não encontrado");
+
+            _products.Remove(existing);
+        }
+        public List<ProductModel> GetAll()
+        {
+            return _products;
+        }
+
     }
 }

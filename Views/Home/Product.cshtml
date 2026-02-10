@@ -2,12 +2,20 @@
     ViewData["Title"] = "Preços";
 }
 <h2>Lista de Produtos</h2>
+
+<a asp-controller="Home" asp-action="Create">
+    Novo Produto
+</a>
+
 <table>
     <thead>
+        
+        
         <tr>
             <th>ID</th>
             <th>Nome</th>
             <th>Preço</th>
+            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -17,6 +25,25 @@
                 <td>@produto.Id</td>
                 <td>@produto.Name</td>
                 <td>R$ @produto.Price</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@produto.Id">
+                        Editar
+                    </a>
+                    <form method="post" asp-action="Delete" style="display:inline">
+                        @Html.AntiForgeryToken()
+                        <input 
+                            type="hidden" 
+                            name="id" 
+                            value="@produto.Id" />
+                        <button 
+                            type="submit" 
+                            style="color:red"
+                            onclick="return confirm('Tem certeza que deseja excluir?')">
+                            Excluir
+                        </button>
+                    </form>
+                </td>
+                
             </tr>
         }
     </tbody>

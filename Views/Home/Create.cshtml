@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Criar Produto";
+}
+
+<h1>Criar Produto</h1>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+<Form method="post" asp-action="SaveCreate">
+    <input name = "name" />
+    <input name = "price" type="number" step="0.01" />
+    <button type="submit">Salvar</button>
+</Form>
+
