@@ -4,7 +4,14 @@ namespace ProjetoFV.Models
 {
     public class ProductModel
     {
+
         public ProductModel() { }
+
+        public ProductModel(double stock)
+        {
+            Stock = stock;
+        }
+
         public ProductModel( int id, string name,decimal price)
         {
             if (price < 0)
@@ -33,8 +40,9 @@ namespace ProjetoFV.Models
         public decimal Price { get; set; } 
         public  string Name { get; set; }
         public  int Id { get; set; }
+        public double Stock { get; set; }
 
-        
+
 
     }
 }

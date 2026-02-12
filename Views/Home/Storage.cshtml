@@ -3,4 +3,60 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Aqui será a gestão de estoque</p>
+<table>
+    <thead>
+        
+        
+        <tr>
+            <th>Nome</th>
+            <th>    |    </th>
+            <th>Estoque</th>
+            <th>    |    </th>
+            <th>Adicionar no estoque</th>
+            <th>    |    </th>
+            <th>Remover do estoque</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Name</td>
+                <td>    |    </td>
+                <td>@produto.Stock kg</td>
+                <td>    |    </td>
+                <td><form method="post" asp-action="AddStock" style="display:inline">
+                    @Html.AntiForgeryToken()
+                    <input 
+                        type="hidden" 
+                        name="id" 
+                        value="@produto.Id" />
+                    <input 
+                        type="number" 
+                        name="quantidade" 
+                        min="0" 
+                        step="0.01" />
+                        <button type="submit">Adicionar</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="post" asp-action="RemoveStock" style="display:inline">
+                        @Html.AntiForgeryToken()
+                        <input
+                            type="hidden"
+                            name="id"
+                            value="@produto.Id"/>
+                        <input 
+                            type="number"
+                            name="quantidade"
+                            min="0"
+                            step="0.01" />
+                            <button type="submit">Remover</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
