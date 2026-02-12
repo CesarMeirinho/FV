@@ -13,8 +13,11 @@
         
         <tr>
             <th>ID</th>
+            <th>    |    </th>
             <th>Nome</th>
+            <th>    |    </th>
             <th>Preço</th>
+            <th>    |    </th>
             <th>Ações</th>
         </tr>
     </thead>
@@ -23,8 +26,11 @@
         {
             <tr>
                 <td>@produto.Id</td>
+                <td>    |    </td>
                 <td>@produto.Name</td>
+                <td>    |    </td>
                 <td>R$ @produto.Price</td>
+                <td>    |    </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@produto.Id">
                         Editar

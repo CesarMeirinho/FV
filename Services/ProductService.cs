@@ -37,5 +37,27 @@ namespace ProjetoFV.Services
         {
             return _repo.GetByID(id);
         }
+        public void AddStock(int id, double quantidade)
+        {
+            var produto = GetById(id);
+            if (produto == null)
+                throw new Exception("Produto não encontrado.");
+
+            produto.Stock += quantidade;
+
+            _repo.Update(produto);
+        }
+        public void RemoveStock(int id, double quantidade)
+        {
+            var produto = GetById(id);
+            if (produto == null)
+                throw new Exception("Produto não encontrado.");
+            else if (produto.Stock < quantidade)
+                throw new Exception("Quantidade em estoque insuficiente.");
+            
+            produto.Stock -= quantidade;
+
+            _repo.Update(produto);
+        }
     }
 }

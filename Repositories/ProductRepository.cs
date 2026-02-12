@@ -30,6 +30,7 @@ namespace ProjetoFV.Repositories
 
             existing.Name = product.Name; 
             existing.Price = product.Price;
+            existing.Stock = product.Stock;
         }
         public void DeleteByID(int id)
         {

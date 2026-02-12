@@ -22,17 +22,6 @@ namespace ProjetoFV.Controllers
         {
             return View();
         }
-
-        public IActionResult Storage()
-        {
-            return View();
-        }
-
-        public IActionResult Product()
-        {
-            var product = _productService.GetAllProductPrice();
-            return View(product);
-        }
 		public IActionResult Profile()
 		{
 			return View();
@@ -41,6 +30,43 @@ namespace ProjetoFV.Controllers
 		{
 			return View();
 		}
+        public IActionResult Storage()
+        {
+            var product = _productService.GetAllProductPrice();
+            return View(product);
+        }
+        public IActionResult AddStock(int id, double quantidade)
+        {
+            try
+            {
+                _productService.AddStock(id, quantidade);
+                return RedirectToAction("Storage");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return RedirectToAction("Storage");
+
+            }
+        }
+        public IActionResult RemoveStock(int id, double quantidade)
+        {
+            try
+            {
+                _productService.RemoveStock(id, quantidade);
+                return RedirectToAction("Storage");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return RedirectToAction("Storage");
+            }
+        }
+        public IActionResult Product()
+        {
+            var product = _productService.GetAllProductPrice();
+            return View(product);
+        }
         public IActionResult Create()
         {
             return View();
